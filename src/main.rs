@@ -7,6 +7,7 @@ mod selection_sort;
 mod merge_sort;
 mod quick_sort;
 mod shell_sort;
+mod heap_sort;
 
 use display::display;
 use shuffle::shuffle;
@@ -17,6 +18,7 @@ use selection_sort::selection_sort;
 use merge_sort::merge_sort;
 use quick_sort::quick_sort;
 use shell_sort::shell_sort;
+use heap_sort::heap_sort;
 
 fn main() {
   let mut array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -58,4 +60,10 @@ fn main() {
 
   shell_sort(&mut array);
   display("Shell Sort", &array);
+
+  shuffle(&mut array);
+  display("Shuffled", &array);
+
+  heap_sort(&mut array);
+  display("Heap Sort", &array);
 }
