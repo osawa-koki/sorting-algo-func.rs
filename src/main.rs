@@ -1,3 +1,4 @@
+mod is_sorted;
 mod display;
 mod shuffle;
 
@@ -66,4 +67,7 @@ fn main() {
 
   heap_sort(&mut array);
   display("Heap Sort", &array);
+
+  shuffle(&mut array);
+  display("Shuffled", &array);
 }
