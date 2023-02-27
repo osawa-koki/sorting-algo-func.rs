@@ -29,3 +29,13 @@ Selection Sort (true ): 0 1 2 3 4 5 6 7 8 9
      Heap Sort (false): 1 2 3 4 5 6 7 8 9 0
       Shuffled (false): 2 5 8 0 4 1 7 9 6 3
 ```
+
+## 実装したアルゴリズム
+
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+- Merge Sort
+- Quick Sort
+- Shell Sort
+- Heap Sort
